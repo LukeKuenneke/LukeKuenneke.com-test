@@ -1,0 +1,29 @@
+{
+  "name": "lukekuenneke.com-test",
+  "version": "1.0.0",
+  "description": "VuePress playground",
+  "main": "index.js",
+  "dependencies": {
+    "vuepress": "^0.14.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "serve": "node ./node_modules/vuepress/bin/vuepress.js dev ./docs/",
+    "build": "node ./node_modules/vuepress/bin/vuepress.js build ./docs/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukeKuenneke/LukeKuenneke.com-test.git"
+  },
+  "author": "Luke.Kuenneke@gmail.com",
+  "license": "SEE LICENSE file",
+  "bugs": {
+    "url": "https://github.com/LukeKuenneke/LukeKuenneke.com-test/issues"
+  },
+  "homepage": "https://github.com/LukeKuenneke/LukeKuenneke.com-test#readme",
+  "keywords": [
+    "Luke",
+    "Kuenneke",
+    "LukeKuenneke"
+  ]
+}
