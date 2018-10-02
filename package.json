@@ -4,9 +4,12 @@
   "description": "VuePress playground",
   "main": "index.js",
   "dependencies": {
+    "materialize-css": "^1.0.0-rc.2",
     "vuepress": "^0.14.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "vuepress-theme-yubisaki": "^3.0.3"
+  },
   "scripts": {
     "serve": "node ./node_modules/vuepress/bin/vuepress.js dev ./docs/",
     "build": "node ./node_modules/vuepress/bin/vuepress.js build ./docs/"
